@@ -1,5 +1,6 @@
 {
-    "name": "rathouz/text-image",
+    "name": "navaneeth-raman-bhaskar/text-image",
+    "version": "2.1.0",
     "type": "library",
     "description": "A simple PHP library to convert text to images.",
     "keywords": ["image", "text", "converting", "gd"],
@@ -12,16 +13,22 @@
         }
     ],
     "support": {
-        "email": "trathouz@gmail.com",
-        "issues": "https://github.com/rathouz/data-tree/issues/"
+        "email": "navaneethbhasuram@gmail.com",
+        "issues": "https://github.com/navaneeth-raman-bhaskar/text-image/issues/"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:navaneeth-raman-bhaskar/tools.git"
+        }
+    ],
     "require": {
-        "php": ">=5.4.0",
-        "rathouz/tools": "^2.0"
+        "php": ">=7.1",
+        "navaneeth-raman-bhaskar/tools": "2.1.0"
     },
     "require-dev": {
-        "codeception/codeception": "2.1.*",
-        "squizlabs/php_codesniffer": "^2.6"
+        "codeception/codeception": "^4.1.6",
+        "squizlabs/php_codesniffer": "^3.5.5"
     },
     "autoload": {
         "psr-4": {
@@ -33,7 +40,7 @@
     },
     "scripts": {
         "test": "vendor\\bin\\codecept run --env local",
-        "syntax": "vendor\\bin\\phpcs --standard=vendor/rathouz/tools/assets/coding-standards/standards.xml --colors --encoding=utf-8 -sp src/",
-        "syntax-fix": "vendor\\bin\\phpcbf --standard=vendor/rathouz/tools/assets/coding-standards/standards.xml src/"
+        "syntax": "vendor\\bin\\phpcs --standard=vendor/navaneeth-raman-bhaskar/tools/assets/coding-standards/standards.xml --colors --encoding=utf-8 -sp src/",
+        "syntax-fix": "vendor\\bin\\phpcbf --standard=vendor/navaneeth-raman-bhaskar/tools/assets/coding-standards/standards.xml src/"
     }
 }
