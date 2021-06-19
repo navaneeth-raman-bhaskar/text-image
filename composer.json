@@ -1,6 +1,6 @@
 {
     "name": "navaneeth-raman-bhaskar/text-image",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "type": "library",
     "description": "A simple PHP library to convert text to images.",
     "keywords": ["image", "text", "converting", "gd"],
@@ -24,7 +24,7 @@
     ],
     "require": {
         "php": ">=7.1",
-        "navaneeth-raman-bhaskar/tools": "2.1.0"
+        "navaneeth-raman-bhaskar/tools": "2.1.1"
     },
     "require-dev": {
         "codeception/codeception": "^4.1.6",
