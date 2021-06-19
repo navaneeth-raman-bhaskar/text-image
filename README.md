@@ -8,19 +8,19 @@ TextImage: A simple PHP library to convert text to images.
 Requirements
 ------------
 
-Library **rathouz/text-image** requires **PHP 5.4**.
+Library **navaneeth-raman-bhaskar/text-image** requires **PHP 7.1**.
 For other requirements, please see
-[composer.json](https://github.com/rathouz/text-image/blob/master/composer.json)
+[composer.json](https://github.com/navaneeth-raman-bhaskar/text-image/blob/master/composer.json)
 
 
 Installation
 ------------
 
-The best way to install **rathouz/text-image** is using
+The best way to install **navaneeth-raman-bhaskar/text-image** is using
 [Composer](http://getcomposer.org/):
 
 ```sh
-$ composer require rathouz/text-image
+composer require navaneeth-raman-bhaskar/text-image:2.1.1
 ```
 
 
@@ -34,9 +34,9 @@ Contributing
 ------------
 
 All contributions are **fully welcome**. Please share your ideas, test and report
-[issues](https://github.com/rathouz/text-image/issues/). 
+[issues](https://github.com/navaneeth-raman-bhaskar/text-image/issues/). 
 Please see
-[contributing file](https://github.com/rathouz/text-image/blob/master/docs/en/contributing.md).
+[contributing file](https://github.com/navaneeth-raman-bhaskar/text-image/blob/master/docs/en/contributing.md).
 for more info.
 
 License
@@ -52,6 +52,5 @@ or
 -----
 
 See also:
-[rathouz.cz](http://rathouz.cz) /
-[other repositories](http://github.com/rathouz)
+[other repositories](http://github.com/navaneeth-raman-bhaskar)
 .
